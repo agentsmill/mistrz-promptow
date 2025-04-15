@@ -4,17 +4,17 @@
   "description": "Aplikacja do nauki prompt engineeringu w języku polskim",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/mistrz-promptow/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/mistrz-promptow/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/mistrz-promptow/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -35,14 +35,18 @@
       "short_name": "Lekcje",
       "description": "Przeglądaj dostępne lekcje",
       "url": "./lessons",
-      "icons": [{ "src": "shortcuts/lessons.png", "sizes": "96x96" }]
+      "icons": [
+        { "src": "/mistrz-promptow/shortcuts/lessons.png", "sizes": "96x96" }
+      ]
     },
     {
       "name": "Profil",
       "short_name": "Profil",
       "description": "Twój profil i postępy",
       "url": "./profile",
-      "icons": [{ "src": "shortcuts/profile.png", "sizes": "96x96" }]
+      "icons": [
+        { "src": "/mistrz-promptow/shortcuts/profile.png", "sizes": "96x96" }
+      ]
     }
   ]
 }
