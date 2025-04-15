@@ -1,0 +1,48 @@
+{
+  "short_name": "Mistrz Promptów",
+  "name": "Mistrz Promptów - Interaktywny Trening Prompt Engineeringu",
+  "description": "Aplikacja do nauki prompt engineeringu w języku polskim",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#2c3e50",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["education", "productivity"],
+  "lang": "pl",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Lekcje",
+      "short_name": "Lekcje",
+      "description": "Przeglądaj dostępne lekcje",
+      "url": "./lessons",
+      "icons": [{ "src": "shortcuts/lessons.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Profil",
+      "short_name": "Profil",
+      "description": "Twój profil i postępy",
+      "url": "./profile",
+      "icons": [{ "src": "shortcuts/profile.png", "sizes": "96x96" }]
+    }
+  ]
+}
